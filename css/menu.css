@@ -1,0 +1,29 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color: var(--bgColor);
+    gap:60px ;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a img:hover{
+    transform: scale(.9);
+    transition: .3s;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .menu {
+     gap: 40px;
+    }
+  }

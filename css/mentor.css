@@ -1,0 +1,46 @@
+.container-mentors{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow: auto;
+    margin-bottom: 80px;
+    animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;
+    scrollbar-color:#5848FD ;
+    scrollbar-width: thin;
+}
+
+.container-mentors .container-item-mentor .container-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.container-mentors .container-item-mentor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 65px;
+    cursor: pointer;    
+}
+
+.container-mentors .container-item-mentor:hover{
+    transform: scale(.9);
+    transition: .1s;
+}
+
+
+.container-mentors .container-item-mentor .name-mentor{
+    font-size: 15px;
+    color: #404040;
+    font-weight: 400;
+}
+
+.container-mentors .container-item-mentor .count-courses{
+    font-size: 12px;
+    color: #ADADAD;
+    font-weight: 300;
+}

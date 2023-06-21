@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url(./menu.css);
+@import url(./container-profile.css);
+@import url(./courses.css);
+@import url(./mentor.css);
+
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bgColor:#F1F1F1;
+    
+}
